@@ -1,0 +1,264 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+div {
+  display: block;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.container-a {
+  width: 100%;
+  height: 1268px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(#b7cbe3, #ebe7e6);
+}
+.container-b {
+  margin-top: 100px;
+  width: 60%;
+  height: 800px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, #dbdee7, #9fb4cf);
+  border-radius: 30px;
+  font-family: "Open Sans", sans-serif;
+  transition: 0.7s;
+}
+.container-c {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ebe7e6;
+  font-family: "Gajraj One", cursive;
+  font-size: 80px;
+}
+.container-d {
+  width: 100%;
+  height: 1268px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(#ebe7e6, #b581be);
+}
+.container-e {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #b581be;
+  font-family: "Gajraj One", cursive;
+  font-size: 80px;
+}
+.container-f {
+  width: 100%;
+  height: 1268px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(#b581be, #ebe7e6);
+}
+@media (max-width: 1400px) {
+  .container-f {
+    flex-direction: column;
+  }
+}
+.container-g {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ebe7e6;
+  font-family: "Gajraj One", cursive;
+  font-size: 80px;
+}
+.container-h {
+  width: 100%;
+  height: 1268px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(#ebe7e6, #ffa470);
+}
+.container-i {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffa470;
+  font-family: "Gajraj One", cursive;
+  font-size: 80px;
+}
+.container-b:hover {
+  scale: 1.06;
+}
+.top {
+  width: 100%;
+  height: 120px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+  border-bottom: 1px solid black;
+}
+.name {
+  font-family: "Gajraj One", cursive;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
+.front-end {
+  display: flex;
+  justify-content: space-around;
+  width: 15%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+.back-end {
+  display: flex;
+  justify-content: space-around;
+  width: 25%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+@media (max-width: 1300px) {
+  .name {
+    width: 30%;
+  }
+  .front-end {
+    width: 30%;
+  }
+  .back-end {
+    width: 40%;
+  }
+}
+.hi {
+  font-size: 30px;
+}
+.fullName {
+  font-size: 50px;
+}
+.fullStack {
+  font-size: 30px;
+}
+@media (max-width: 1400px) {
+  .hi {
+    font-size: 20px;
+  }
+  .fullName {
+    font-size: 35px;
+  }
+  .fullStack {
+    font-size: 20px;
+  }
+}
+.img {
+  width: 400px;
+  border-radius: 300px;
+}
+.link {
+  font-size: 30px;
+}
+.linklink {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+.linklink:hover {
+  color: lightblue;
+  scale: 1.01;
+}
+.linkGit {
+  height: 60px;
+  background-image: linear-gradient(to left, #3d455a, #4d4b50);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+.linkGit:hover {
+  scale: 1.03;
+}
+.sobreMim {
+  width: 40%;
+  padding: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  background-color: #b581be;
+  border-radius: 30px;
+  box-shadow: 20px 20px #5a465e;
+}
+.project1 {
+  width: 30%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  background-color: #b581be;
+  padding: 10px 10px;
+  border-radius: 40px;
+  box-shadow: 10px 10px #68496d;
+  transition: 0.4s;
+}
+.imgProjeto1 {
+  width: 40%;
+  border-radius: 50px;
+}
+.project1:hover {
+  scale: 1.03;
+}
+.a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+.imgHab {
+  padding: 30px;
+  transition: 0.3s;
+}
+@media (max-width: 1400px) {
+  .imgHab {
+    padding: 5px;
+    width: 150px;
+  }
+  .textTecnologias {
+    font-size: 18px;
+    padding-left: 30px;
+  }
+  .titleTecnologias {
+    font-size: 20px;
+    padding-left: 30px;
+  }
+}
+.imgHab:hover {
+  scale: 1.1;
+}
+.tecnologias {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textTec {
+  width: 28%;
+}
+.textTecnologias {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+}
+.titleTecnologias {
+  font-family: "Gajraj One", cursive;
+  font-size: 50px;
+}
